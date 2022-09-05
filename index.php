@@ -13,6 +13,12 @@
      <title>CRUD PHP PDO</title>
 </head>
 <body>
-     
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 mt-5 mb-5">
+                    <a href="#" class="btn btn-success"><span class="fa fa-plus"></span> Tambah</a>
+               </div>
+          </div>
+     </div>
 </body>
 </html>
