@@ -17,6 +17,16 @@
           <div class="row">
                <div class="col-md-12 mt-5 mb-5">
                     <a href="#" class="btn btn-success"><span class="fa fa-plus"></span>&nbsp;Tambah</a>
+                    <table class="table table-striped">
+                         <tr>
+                              <th>No</th>
+                              <th>Nama Barang</th>
+                              <th>Stock</th>
+                              <th>Harga Barang</th>
+                              <th>Tanggal Masuk</th>
+                              <th>Aksi</th>
+                         </tr>
+                    </table>
                </div>
           </div>
      </div>
