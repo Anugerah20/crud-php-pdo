@@ -26,6 +26,14 @@
                               <th>Tanggal Masuk</th>
                               <th>Aksi</th>
                          </tr>
+                         <?php 
+                              $sql = "SELECT * FROM barang";
+                              $row = $connect->prepare($sql);
+                              $row->execute();
+                              $get = $row->fetchAll();
+                              $i = 1;
+                              foreach($get as $g)
+                         ?>
                     </table>
                </div>
           </div>
