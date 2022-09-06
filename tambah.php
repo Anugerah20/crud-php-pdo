@@ -15,20 +15,28 @@ require_once('koneksi.php');
 <body>
      <!-- START: Contact -->
      <div class="container">
+          <div class="mt-4">
+               <h2>Tambah Barang</h2>
+          </div>
           <form action="" method="POST">
-               <div class="row mt-5">
+               <div class="row mt-4">
                     <div class="col-md-4">
-                         <input type="text" name="nama" class="form-control" require placeholder="Your name">
+                         <input type="text" name="nama_barang" class="form-control" required>
                     </div>
                </div>
                <div class="row mt-5">
                     <div class="col-md-4">
-                         <input type="text" name="email" class="form-control" require placeholder="Your email">
+                         <input type="text" name="stok" class="form-control" required>
                     </div>
                </div>
                <div class="row mt-5">
                     <div class="col-md-4">
-                         <input type="text" name="email" class="form-control" require placeholder="Your email">
+                         <input type="text" name="harga" class="form-control" required>
+                    </div>
+               </div>
+               <div class="row mt-5">
+                    <div class="col-md-4">
+                         <input type="date" name="tanggal" class="form-control" required>
                     </div>
                </div>
                <div>
