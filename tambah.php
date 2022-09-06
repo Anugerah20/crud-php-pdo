@@ -12,6 +12,11 @@ if(!empty($_POST['nama_barang'])) {
      $data[] = $stok;
      $data[] = $harga;
      $data[] = $tanggal;
+
+     // Simpan data barang
+     $sql = 'INSERT INTO barang (nama_barang,stok,harga_barang,tgl_masuk)VALUES (?,?,?,?)';
+     $row = $connect->prepare($sql);
+     $row->execute($data);
 }
 ?>
 
