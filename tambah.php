@@ -17,6 +17,9 @@ if(!empty($_POST['nama_barang'])) {
      $sql = 'INSERT INTO barang (nama_barang,stok,harga_barang,tgl_masuk)VALUES (?,?,?,?)';
      $row = $connect->prepare($sql);
      $row->execute($data);
+
+     // Redirect jika berhasil menambah barang
+     echo '<script>alert("Berhasil menambah data");window.location="index.php"</script>';
 }
 ?>
 
