@@ -43,11 +43,9 @@ require_once('koneksi.php');
                          <input type="date" name="tanggal" class="form-control mt-2" id="tanggal" required>
                     </div>
                </div>
-               <div>
-                    <div class="row mt-3">
-                         <div class="col-md-4">
-                              <button type="submit" name="send" class="btn btn-dark text-capitalize"><i class="fa fa-plus"> </i> Create</button>
-                         </div>
+               <div class="row mt-3">
+                    <div class="col-md-4">
+                         <button type="submit" name="send" class="btn btn-dark text-capitalize"><i class="fa fa-plus"> </i> Create</button>
                     </div>
                </div>
           </form>
