@@ -46,7 +46,7 @@ require_once('koneksi.php');
                <div>
                     <div class="row mt-3">
                          <div class="col-md-4">
-                              <button type="submit" name="send" class="btn btn-dark text-capitalize">kirim</button>
+                              <button type="submit" name="send" class="btn btn-dark text-capitalize">Create</button>
                          </div>
                     </div>
                </div>
