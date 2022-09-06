@@ -37,7 +37,7 @@
                          <tr>
                               <td><?php echo $i ?></td>
                               <td><?php echo $g['nama_barang'] ?></td>
-                              <td><?php echo $g['stock']; ?></td>
+                              <td><?php echo $g['stok']; ?></td>
                               <td><?php echo $g['harga_barang']; ?></td>
                               <td><?php echo $g['tgl_masuk']; ?></td>
                               <td>
