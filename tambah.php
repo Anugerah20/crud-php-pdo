@@ -40,7 +40,7 @@ require_once('koneksi.php');
                <div class="row mt-3">
                     <label for="tanggal">Tanggal</label>
                     <div class="col-md-4">
-                         <input type="date" name="tanggal" class="form-control" id="tanggal" required>
+                         <input type="date" name="tanggal" class="form-control mt-2" id="tanggal" required>
                     </div>
                </div>
                <div>
