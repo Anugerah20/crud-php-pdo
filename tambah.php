@@ -17,7 +17,11 @@ require_once('koneksi.php');
           <div class="row">
                <div class="col-lg-6">
                     <form action="" method="POST">
-                         
+                         <div class="input-group">
+                              <label for="nama_barang">
+                                   <input type="text" class="form-control" name="nama_barang">
+                              </label>
+                         </div>
                     </form>
                </div>
           </div>
