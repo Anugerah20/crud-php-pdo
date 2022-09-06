@@ -33,7 +33,8 @@ require_once('koneksi.php');
                </div>
                <div class="row mt-3">
                     <div class="col-md-4">
-                         <input type="text" name="harga" class="form-control" required>
+                         <label for="harga">Harga</label>
+                         <input type="text" name="harga" class="form-control" id="harga" required>
                     </div>
                </div>
                <div class="row mt-3">
