@@ -16,7 +16,7 @@
      <div class="container">
           <div class="row">
                <div class="col-md-12 mt-5 mb-5">
-                    <a href="#" class="btn btn-success"><span class="fa fa-plus"></span>&nbsp;Tambah</a>
+                    <a href="tambah.php" class="btn btn-success"><span class="fa fa-plus"></span>&nbsp;Tambah</a>
                     <table class="table table-striped mt-3">
                          <tr>
                               <th>No</th>
