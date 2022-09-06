@@ -1,6 +1,10 @@
 <?php 
 require_once('koneksi.php');
 
+if(!empty($_POST['nama_barang'])) {
+     // Menangkap data barang
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
