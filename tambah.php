@@ -22,6 +22,12 @@ require_once('koneksi.php');
                                    <input type="text" class="form-control" name="nama_barang">
                               </label>
                          </div>
+
+                         <div class="input-group">
+                              <label for="stok">
+                                   <input type="text" class="form-control" name="stok">
+                              </label>
+                         </div>
                     </form>
                </div>
           </div>
