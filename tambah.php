@@ -21,20 +21,22 @@ require_once('koneksi.php');
           <form action="" method="POST">
                <div class="row mt-4">
                     <div class="col-md-4">
-                         <input type="text" name="nama_barang" class="form-control" required>
+                         <label for="nama_barang">Nama Barang</label>
+                         <input type="text" name="nama_barang" class="form-control" id="nama_barang" required>
                     </div>
                </div>
-               <div class="row mt-5">
+               <div class="row mt-3">
                     <div class="col-md-4">
-                         <input type="text" name="stok" class="form-control" required>
+                    <label for="nama_barang">Stok</label>
+                         <input type="text" name="stok" class="form-control" id="stok" required>
                     </div>
                </div>
-               <div class="row mt-5">
+               <div class="row mt-3">
                     <div class="col-md-4">
                          <input type="text" name="harga" class="form-control" required>
                     </div>
                </div>
-               <div class="row mt-5">
+               <div class="row mt-3">
                     <div class="col-md-4">
                          <input type="date" name="tanggal" class="form-control" required>
                     </div>
@@ -46,6 +48,7 @@ require_once('koneksi.php');
                          </div>
                     </div>
                </div>
+          </form>
      </div>
 </body>
 </html>
