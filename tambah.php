@@ -7,9 +7,14 @@ if(!empty($_POST['nama_barang'])) {
      $stok = $_POST['stok'];
      $harga = $_POST['harga'];
      $tanggal = $_POST['tanggal'];
+     
+     $data[] = $nama_barang;
+     $data[] = $stok;
+     $data[] = $harga;
+     $data[] = $tanggal;
 }
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
