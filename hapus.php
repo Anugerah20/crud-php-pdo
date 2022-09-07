@@ -7,4 +7,6 @@ $sql = "DELETE FROM barang WHERE id_barang= ?";
 $row = $connect->prepare($sql);
 $row->execute(array($id));
 
+// Redirect jika berhasil menghapus data
+
 ?>
