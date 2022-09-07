@@ -41,8 +41,8 @@
                               <td><?php echo $g['harga_barang']; ?></td>
                               <td><?php echo $g['tgl_masuk']; ?></td>
                               <td>
-                                   <a href="edit.php?id=<?php $g['id_barang'];?>" class="btn btn-success"><span class="fa fa-edit"></span></a>
-                                   <a onclick="return confirm('Apakah yakin data mau dihapus?')" href="hapus.php?id=<?php $g['id_barang'];?>" class="btn btn-danger"><span class="fa fa-trash"></span></a>
+                                   <a href="edit.php?id=<?php echo $g['id_barang'];?>" class="btn btn-success"><span class="fa fa-edit"></span></a>
+                                   <a onclick="return confirm('Apakah yakin data mau dihapus?')" href="hapus.php?id=<?php echo $g['id_barang'];?>" class="btn btn-danger"><span class="fa fa-trash"></span></a>
                               </td>
                          </tr>
                          <?php 
