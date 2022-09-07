@@ -74,6 +74,7 @@ if(!empty($_POST['nama_barang'])) {
                </div>
                <div class="row mt-3">
                     <div class="col-md-4">
+                         <input type="hidden" value="<?php echo $get['id_barang'];?>" name="id_barang">
                          <button type="submit" name="send" class="btn btn-dark text-capitalize"><i class="fa fa-plus"> </i> Create</button>
                     </div>
                </div>
