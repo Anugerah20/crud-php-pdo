@@ -17,7 +17,7 @@
           <div class="row">
                <div class="col-md-12 mt-5 mb-5">
                     <a href="tambah.php" class="btn btn-success"><span class="fa fa-plus"></span>&nbsp;Tambah</a>
-                    <table class="table table-striped mt-3">
+                    <table class="table table-striped mt-3 text-center">
                          <tr>
                               <th>No</th>
                               <th>Nama Barang</th>
@@ -40,7 +40,7 @@
                               <td><?php echo $g['stok']; ?></td>
                               <td><?php echo $g['harga_barang']; ?></td>
                               <td><?php echo $g['tgl_masuk']; ?></td>
-                              <td>
+                              <td class="text-center">
                                    <a href="edit.php?id=<?php echo $g['id_barang'];?>" class="btn btn-success"><span class="fa fa-edit"></span></a>
                                    <a onclick="return confirm('Apakah yakin data mau dihapus?')" href="hapus.php?id=<?php echo $g['id_barang'];?>" class="btn btn-danger"><span class="fa fa-trash"></span></a>
                               </td>
