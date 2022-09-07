@@ -63,7 +63,7 @@ if(!empty($_POST['nama_barang'])) {
                <div class="row mt-3">
                     <div class="col-md-4">
                          <label for="harga">Harga</label>
-                         <input type="text" name="harga" class="form-control mt-2" id="harga" required>
+                         <input type="text" value="<?php echo $get['harga_barang']; ?>" name="harga" class="form-control mt-2" id="harga" required>
                     </div>
                </div>
                <div class="row mt-3">
