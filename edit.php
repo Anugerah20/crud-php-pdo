@@ -45,7 +45,7 @@ if(!empty($_POST['nama_barang'])) {
      <!-- START: Contact -->
      <div class="container">
           <div class="mt-4">
-               <h2>Edit Barang</h2>
+               <h2>Edit Barang - <?php echo $get['nama_barang']; ?></h2>
           </div>
           <form action="" method="POST">
                <div class="row mt-4">
