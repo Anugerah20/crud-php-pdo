@@ -1,6 +1,7 @@
 <?php 
 require_once('koneksi.php');
 
+// Proses Tambah Barang
 if(!empty($_POST['nama_barang'])) {
      // Menangkap data barang
      $nama_barang = $_POST['nama_barang'];
