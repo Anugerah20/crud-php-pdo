@@ -17,6 +17,7 @@
           <div class="row">
                <div class="col-md-12 mt-5 mb-5">
                     <a href="tambah.php" class="btn btn-success"><span class="fa fa-plus"></span>&nbsp;Tambah</a>
+                    <div class="table-responsive-sm">
                     <table class="table table-striped mt-3 text-center">
                          <tr>
                               <th>No</th>
@@ -50,6 +51,7 @@
                          }
                          ?>
                     </table>
+               </div>
                </div>
           </div>
      </div>
