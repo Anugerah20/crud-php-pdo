@@ -75,7 +75,7 @@ if(!empty($_POST['nama_barang'])) {
                <div class="row mt-3">
                     <div class="col-md-4">
                          <input type="hidden" value="<?php echo $get['id_barang'];?>" name="id_barang">
-                         <button type="submit" name="send" class="btn btn-dark text-capitalize"><i class="fa fa-plus"> </i> Update</button>
+                         <button type="submit" name="send" class="btn btn-dark text-capitalize"><i class="fa fa-edit"> </i> Update</button>
                     </div>
                </div>
           </form>
