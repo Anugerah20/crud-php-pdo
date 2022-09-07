@@ -22,6 +22,13 @@ if(!empty($_POST['nama_barang'])) {
      // Redirect jika berhasil edit barang
      echo '<script>alert("Berhasil edit data");window.location="index.php"</script>';
 }
+
+     // Untuk menampilkan data barang berdasarkan id
+     $id  = $_GET['id'];
+     $sql = "SELECT * FROM barang WHERE id_barang= ?";
+     $row = $connect->prepare($sql);
+     $row->execute(array($id));
+     $hasil = $row->fetch();
 ?>
 
 <!DOCTYPE html>
