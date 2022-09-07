@@ -28,7 +28,7 @@ if(!empty($_POST['nama_barang'])) {
      $sql = "SELECT * FROM barang WHERE id_barang= ?";
      $row = $connect->prepare($sql);
      $row->execute(array($id));
-     $hasil = $row->fetch();
+     $get = $row->fetch();
 ?>
 
 <!DOCTYPE html>
