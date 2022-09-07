@@ -69,7 +69,7 @@ if(!empty($_POST['nama_barang'])) {
                <div class="row mt-3">
                     <label for="tanggal">Tanggal</label>
                     <div class="col-md-4">
-                         <input type="date" name="tanggal" class="form-control mt-2" id="tanggal" required>
+                         <input type="date" value="<?php echo $get['tgl_masuk']; ?>" name="tanggal" class="form-control mt-2" id="tanggal" required>
                     </div>
                </div>
                <div class="row mt-3">
