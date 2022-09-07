@@ -18,5 +18,8 @@ if(!empty($_POST['nama_barang'])) {
      $sql = "UPDATE barang SET nama_barang=?,stok=?,harga_barang=?,tgl_masuk=? WHERE id_barang=?";
      $row = $connect->prepare($sql);
      $row->execute($data);
+
+     // Redirect jika berhasil edit barang
+     echo '<script>alert("Berhasil edit data");window.location="index.php"</script>';
 }
 ?>
