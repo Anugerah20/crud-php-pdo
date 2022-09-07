@@ -57,7 +57,7 @@ if(!empty($_POST['nama_barang'])) {
                <div class="row mt-3">
                     <div class="col-md-4">
                     <label for="nama_barang">Stok</label>
-                         <input type="text" name="stok" class="form-control mt-2" id="stok" required>
+                         <input type="text" value="<?php echo $get['stok']; ?>" name="stok" class="form-control mt-2" id="stok" required>
                     </div>
                </div>
                <div class="row mt-3">
